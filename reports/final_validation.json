@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "source_checksums_unchanged": true,
+    "quality_gate_passed": true,
+    "database_gate_passed": true,
+    "kpi_order_count": true,
+    "kpi_eligible_count": true,
+    "kpi_late_count": true,
+    "kpi_late_rate": true,
+    "statistics_match_model": true,
+    "monthly_totals_reconcile": true,
+    "states_totals_reconcile": true,
+    "cohort_exclusions_reconcile": true,
+    "reports_present": true,
+    "six_figures_present": true,
+    "notebook_sequence_executed_without_errors": true
+  },
+  "passed": true
+}

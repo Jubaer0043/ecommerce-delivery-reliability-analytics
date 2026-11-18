@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "sqlite_integrity": true,
+    "foreign_keys": true,
+    "one_row_per_order": true,
+    "money_reconciles_to_cent": true,
+    "sql_python_late_flags_agree": true,
+    "ineligible_orders_have_null_outcomes": true,
+    "eligible_durations_nonnegative": true
+  },
+  "order_count": 99441,
+  "money_reconciliation": {
+    "merchandise_value_brl": {
+      "source_total": 13591643.7,
+      "fact_total": 13591643.7,
+      "absolute_difference": 0.0
+    },
+    "freight_value_brl": {
+      "source_total": 2251909.54,
+      "fact_total": 2251909.54,
+      "absolute_difference": 0.0
+    },
+    "payment_value_brl": {
+      "source_total": 16008872.12,
+      "fact_total": 16008872.120000001,
+      "absolute_difference": 1.862645149230957e-09
+    }
+  },
+  "passed": true
+}

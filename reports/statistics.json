@@ -1,0 +1,59 @@
+{
+  "primary": {
+    "reviewed_orders": 95824,
+    "late_reviewed_orders": 6381,
+    "on_time_reviewed_orders": 89443,
+    "late_low_review_orders": 3983,
+    "on_time_low_review_orders": 8289,
+    "late_low_review_rate": 0.6241968343519825,
+    "on_time_low_review_rate": 0.09267354628087161,
+    "risk_difference": 0.5315232880711108,
+    "risk_ratio": 6.735437019537263,
+    "late_mean_score": 2.270490518727472,
+    "on_time_mean_score": 4.290386055923885,
+    "late_median_score": 1.0,
+    "on_time_median_score": 5.0
+  },
+  "risk_difference_ci": {
+    "method": "Customer cluster percentile bootstrap, 95% CI",
+    "customer_clusters": 92747,
+    "repetitions": 2000,
+    "valid_repetitions": 2000,
+    "seed": 42,
+    "lower": 0.5187776725602369,
+    "upper": 0.5435558665197375
+  },
+  "independent_customer_diagnostics": {
+    "reviewed_orders": 92747,
+    "late_reviewed_orders": 6211,
+    "on_time_reviewed_orders": 86536,
+    "late_low_review_orders": 3885,
+    "on_time_low_review_orders": 8032,
+    "late_low_review_rate": 0.6255031395910481,
+    "on_time_low_review_rate": 0.09281686234630673,
+    "risk_difference": 0.5326862772447414,
+    "risk_ratio": 6.739111016888812,
+    "late_mean_score": 2.2658187087425534,
+    "on_time_mean_score": 4.288712212258482,
+    "late_median_score": 1.0,
+    "on_time_median_score": 5.0,
+    "sample_rule": "Earliest eligible reviewed order per customer_unique_id",
+    "chi_square": 14684.586315500996,
+    "chi_square_p": 0.0,
+    "chi_square_min_expected_cell": 798.0472360291977,
+    "cramers_v": 0.39790639845319437,
+    "mann_whitney_u": 97030470.5,
+    "mann_whitney_p": 0.0,
+    "cliffs_delta_late_minus_on_time": -0.638939659820071
+  },
+  "context": {
+    "purchase_timestamp_min": "2016-09-04 21:15:19",
+    "purchase_timestamp_max": "2018-10-17 17:30:18",
+    "eligible_orders": 96470,
+    "carrier_chronology_anomalies": 23,
+    "carrier_before_purchase": 166,
+    "eligible_review_answers_before_delivery": 4653,
+    "eligible_orders_without_review": 646,
+    "eligible_median_delivery_days": 10.217476851539686
+  }
+}

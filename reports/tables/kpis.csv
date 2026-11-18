@@ -1,0 +1,2 @@
+total_orders,delivered_status_orders,eligible_delivered_orders,late_orders,on_time_orders,late_rate,mean_delivery_days,mean_review_score_eligible,eligible_reviewed_orders
+99441,96478,96470,6534,89936,0.06773090079817559,12.558217098051923,4.155879529136751,95824
